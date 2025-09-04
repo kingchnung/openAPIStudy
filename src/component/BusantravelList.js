@@ -5,7 +5,7 @@ import BusantravelItem from "./BusantravelItem";
 
 const BusantravelList = () => {
 
-    const result = useContext(stateContext);
+    // const result = useContext(stateContext);
 
     return (
         
@@ -21,9 +21,9 @@ const BusantravelList = () => {
                 </thead>
                 <tbody>
                     {
-                        result.map(item => (
-                            <BusantravelItem key={item.UC_SEQ} {...item} />
-                        ))
+                        // result.map(item => (
+                        //     <BusantravelItem key={item.UC_SEQ} {...item} />
+                        // ))
                     }
                 </tbody>
             </Table>
